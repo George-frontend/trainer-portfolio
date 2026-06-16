@@ -6,3 +6,7 @@
   --pure-white: #ffffff;
   --cool-grey: #c6c6c7;
 }
+
+body {
+  background-color: var(--pure-black);
+}
