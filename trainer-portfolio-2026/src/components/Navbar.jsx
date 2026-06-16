@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../styles/navbar.css";
 
 const Navbar = () => {
-  let [status, setStatus] = useState(false);
+  const [status, setStatus] = useState(false);
 
   const toggleMenu = () => {
     setStatus(!status);
