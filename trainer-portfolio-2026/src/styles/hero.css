@@ -5,36 +5,56 @@
     align-items: center;
     min-height: 60vh;
     gap: 2rem;
-    margin-top: 1rem;
+    padding-top: 8rem;
 }
 
 h1 {
+    text-align: center;
     color: var(--pure-white);
 }
 
+.hero-span {
+    color: var(--primary-color);
+}
+
 p {
+    text-align: center;
+    width: 80%;
     color: var(--pure-white);
 }
 
 .hero-btn {
     padding: 1rem 1rem;
     border-radius: 8px;
-    border: 1px solid var(--electric-lime);
-    background-color: var(--electric-lime);
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
     color: var(--pure-black);
 }
 
 .cards {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     gap: 0.5rem;
 }
 .card {
-    padding: 0.8rem 0.8rem;
-    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    gap: 0.5rem;
+    padding: 1rem 1rem;
     border-radius: 12px;
-    border: 2px solid var(--electric-lime);
+    border: 2px solid var(--primary-color);
     background-color: var(--charcoal);
-    color: var(--electric-lime);
+    color: var(--primary-color);
+}
+
+.primary-p {
+    color: var(--primary-color);
+}
+
+.secondary-p {
+    color: var(--pure-white);
 }

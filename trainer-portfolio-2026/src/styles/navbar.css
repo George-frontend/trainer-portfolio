@@ -2,18 +2,18 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: fixed;
     padding: 1rem 1rem;
-    max-width: 100%;
+    width: 100%;
+    border-bottom: 2px solid gray;
     z-index: 999;
-    background-color: var(--charcoal);
+    background-color: var(--pure-black);
 }
 
-.name {
+.logo {
     display: flex;
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--electric-lime);
+    width: 60px;
+    height: 60px;
 }
 
 ul {
@@ -21,7 +21,7 @@ ul {
     flex-direction: column;
     position: absolute;
     right: 0;
-    top: 5rem;
+    top: 6rem;
     gap: 0.5rem;
     list-style: none;
 }
@@ -33,8 +33,8 @@ li {
 button {
     padding: 0.5rem 0.5rem;
     border-radius: 8px;
-    border: 1px solid var(--electric-lime);
-    background-color: var(--electric-lime);
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
     color: var(--pure-black);
 }
 
@@ -49,11 +49,14 @@ button {
 }
 
 .open {
-    max-width: 20%;
-    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    min-width: 25%;
+    min-height: 100vh;
     overflow: hidden;
     transition: 1s;
-    background-color: var(--charcoal);
+    border-left: 2px solid gray;
+    background-color: var(--pure-black);
 }
 
 .closed {

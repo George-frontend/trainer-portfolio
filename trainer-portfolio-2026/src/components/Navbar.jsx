@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="name">VENELIN HRISTOV</div>
+      <img className="logo" src="../../public/logo.png"></img>
 
       <button className={status ? "btn-open" : "btn-closed"} onClick={toggleMenu}>
         ☰
