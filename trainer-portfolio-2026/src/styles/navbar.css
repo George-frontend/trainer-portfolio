@@ -1,11 +1,13 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: sticky;
+    top: 0;
     min-width: 100%;
     padding: 1rem 1rem;
     border-bottom: 1px solid var(--primary);
     background-color: var(--background);
+    z-index: 999;
 }
 
 .name {
@@ -25,7 +27,7 @@
     width: 100%;
     opacity: 0;
     pointer-events: none;
-    transition: 1s;
+    transition: 0.5s;
     background-color: var(--secondary);
     font-weight: var(--font-weight-normal);
 }
