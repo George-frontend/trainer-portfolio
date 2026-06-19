@@ -1,26 +1,27 @@
 import { useState } from "react";
-import "../styles/navbar.css";
+import "../styles/navbar.css"; 
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
-  const [status, setStatus] = useState(false);
 
-  const toggleMenu = () => {
+  const [ status, setStatus ] = useState(false);
+
+  const toogle = () => {
     setStatus(!status);
-  };
+  }
 
   return (
-    <nav>
-      <img className="logo" src="../../public/logo.png"></img>
+    <nav className="navbar">
 
-      <button className={status ? "btn-open" : "btn-closed"} onClick={toggleMenu}>
-        ☰
-      </button>
+      <a className="name" href="#hero">Venelin Hristov</a>
 
-      <ul className={status ? "open" : "closed"}>
-        <li>About</li>
-        <li>Services</li>
-        <li>Results</li>
-        <li>Contact</li>
+      <button className="nav-btn" aria-label="toogle-menu" onClick={toogle}>{status ? <X /> : <Menu />}</button>
+
+      <ul className={`links ${status ? "open" : "closed"}`}>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   );

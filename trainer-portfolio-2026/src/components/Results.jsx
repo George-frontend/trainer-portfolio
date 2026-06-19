@@ -1,8 +1,8 @@
 const Results = () => {
   return (
-    <div>
+    <section id="results" className="results">
       
-    </div>
+    </section>
   )
 }
 

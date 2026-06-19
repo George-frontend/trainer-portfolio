@@ -1,8 +1,8 @@
 export const Contact = () => {
   return (
-    <div>
+    <section id="contact" className="contact">
       
-    </div>
+    </section>
   )
 }
 
