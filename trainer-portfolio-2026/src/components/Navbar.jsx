@@ -18,10 +18,10 @@ const Navbar = () => {
       <button className="nav-btn" aria-label="toogle-menu" onClick={toogle}>{status ? <X /> : <Menu />}</button>
 
       <ul className={`links ${status ? "open" : "closed"}`}>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#results">Results</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li className="li-element"><a href="#about">About</a></li>
+        <li className="li-element"><a href="#services">Services</a></li>
+        <li className="li-element"><a href="#results">Results</a></li>
+        <li className="li-element"><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   );

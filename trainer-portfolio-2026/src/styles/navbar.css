@@ -36,6 +36,6 @@
     border-bottom: 1px solid var(--primary);
 }
 
-li {
+.li-element {
     padding: 0.3rem;
 }
