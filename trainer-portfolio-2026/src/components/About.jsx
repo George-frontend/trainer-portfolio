@@ -7,7 +7,7 @@ const About = () => {
     <section id="about" className="about">
       
       <div className="photo">
-        <img src={photo} alt="Venelin Hristov, certified fitness coach" width="200" height="350" />
+        <img src={photo} alt="Venelin Hristov, certified fitness coach" width="200" height="400" />
       </div>
 
       <div className="desktop-about">
