@@ -20,7 +20,7 @@ const Navbar = () => {
       <ul className={`links ${status ? "open" : "closed"}`}>
         <li className="li-element"><a href="#about">About</a></li>
         <li className="li-element"><a href="#services">Services</a></li>
-        <li className="li-element"><a href="#results">Results</a></li>
+        <li className="li-element"><a href="#feedback">Feedback</a></li>
         <li className="li-element"><a href="#contact">Contact</a></li>
       </ul>
     </nav>

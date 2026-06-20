@@ -1,8 +1,9 @@
 const Feedback = () => {
   return (
-    <div>
+    
+    <section id="feedback" className="feedback">
       
-    </div>
+    </section>
   )
 }
 
