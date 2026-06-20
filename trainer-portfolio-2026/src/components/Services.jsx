@@ -1,5 +1,6 @@
 import "../styles/services.css";
-import { Minus, Dumbbell, Monitor, Utensils  } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Minus, Dumbbell, Monitor, Utensils, ChevronRight  } from "lucide-react";
 
 const Services = () => {
 
@@ -20,7 +21,7 @@ const Services = () => {
 
           <article className="card">
 
-            <span className="icon"><Dumbbell /></span>
+            <span className="icon"><Dumbbell size={16} /></span>
 
             <span className="card-span">In-Person Training</span>
 
@@ -31,12 +32,12 @@ const Services = () => {
               progressive programming, and complete accountability.
             </p>
 
-            <a href="">View More</a>
+            <Link to="/programs/one-on-one-coaching" className="card-link">View More <ChevronRight size={14} /></Link>
           </article>
 
           <article className="card">
 
-            <span className="icon"><Monitor /></span>
+            <span className="icon"><Monitor size={16} /></span>
 
             <span className="card-span">Train Anywhere</span>
 
@@ -47,12 +48,12 @@ const Services = () => {
               video form reviews, and direct support wherever you are in the world.
             </p>
 
-            <a href="">View More</a>
+            <Link to="/programs/remote-coaching" className="card-link">View More <ChevronRight size={14} /></Link>
           </article>
 
           <article className="card">
 
-            <span className="icon"><Utensils /></span>
+            <span className="icon"><Utensils size={16} /></span>
 
             <span className="card-span">Fuel Your Performance</span>
 
@@ -63,7 +64,7 @@ const Services = () => {
               metabolic needs, and lifestyle. Sustainable protocols grounded in evidence.
             </p>
 
-            <a href="">View More</a>
+            <Link to="/programs/nutrition-guidance" className="card-link">View More <ChevronRight size={14}/></Link>
           </article>
         </div>
       </div>
