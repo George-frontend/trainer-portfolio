@@ -14,7 +14,7 @@
     background-color: var(--primary-foreground);
 }
 
-.mobile-wrapper {
+.mobile-about {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,6 +25,8 @@
 }
 
 .primary-span {
+    display: flex;
+    flex-direction: row;
     color: var(--primary);
     font-weight: var(--font-weight-bold);
 }

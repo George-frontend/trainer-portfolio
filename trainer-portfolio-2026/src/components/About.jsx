@@ -1,6 +1,6 @@
 import "../styles/about.css";
 import photo from "../assets/images/photo.jpg";
-import { CheckCircle } from "lucide-react";
+import { CheckCircle, Minus  } from "lucide-react";
 
 const About = () => {
   return (
@@ -10,10 +10,10 @@ const About = () => {
         <img src={photo} alt="Venelin Hristov, certified fitness coach" width="200" height="350" />
       </div>
 
-      <div className="desktop-wrapper">
+      <div className="desktop-about">
 
-        <div className="mobile-wrapper">
-          <span className="primary-span">-- About</span>
+        <div className="mobile-about">
+          <span className="primary-span"><Minus  /> About</span>
 
           <h2 className="about-h2">Built on Science. Driven by Results.</h2>
 
