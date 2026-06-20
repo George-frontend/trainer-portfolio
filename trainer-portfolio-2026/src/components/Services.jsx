@@ -18,9 +18,9 @@ const Services = () => {
 
         <div className="cards-services">
 
-          <arctile className="card">
+          <article className="card">
 
-            <i className="icon"><Dumbbell /></i>
+            <span className="icon"><Dumbbell /></span>
 
             <span className="card-span">In-Person Training</span>
 
@@ -31,12 +31,12 @@ const Services = () => {
               progressive programming, and complete accountability.
             </p>
 
-            <a href=""></a>
-          </arctile>
+            <a href="">View More</a>
+          </article>
 
-          <arctile className="card">
+          <article className="card">
 
-            <i className="icon"><Monitor /></i>
+            <span className="icon"><Monitor /></span>
 
             <span className="card-span">Train Anywhere</span>
 
@@ -47,12 +47,12 @@ const Services = () => {
               video form reviews, and direct support wherever you are in the world.
             </p>
 
-            <a href=""></a>
-          </arctile>
+            <a href="">View More</a>
+          </article>
 
-          <arctile className="card">
+          <article className="card">
 
-            <i className="icon"><Utensils /></i>
+            <span className="icon"><Utensils /></span>
 
             <span className="card-span">Fuel Your Performance</span>
 
@@ -63,8 +63,8 @@ const Services = () => {
               metabolic needs, and lifestyle. Sustainable protocols grounded in evidence.
             </p>
 
-            <a href=""></a>
-          </arctile>
+            <a href="">View More</a>
+          </article>
         </div>
       </div>
     </section>
