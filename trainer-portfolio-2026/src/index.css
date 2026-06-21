@@ -6,7 +6,10 @@
   --primary-foreground: #ffffff;  /* text for primary background */
 
   --secondary: #EBF0FA;           /* secondary background for sections */
-  --secondary-text: #0D1B35;      /* text for  secondary background */
+  --secondary-text: #0D1B35; 
+
+  --footer-background: #07122A;
+  --footer-text: #AFB3BB;
 
   --font-family: 'Inter', sans-serif;
 
