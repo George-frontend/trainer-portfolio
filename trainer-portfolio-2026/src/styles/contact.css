@@ -11,9 +11,8 @@
 .contact-span {
     border-radius: 12px;
     border: 1px solid var(--secondary);
-    padding: 0.5rem 0.5rem;
-    font-size: 0.75rem;
-    font-weight: var(--font-weight-bold);
+    padding: 0.3rem 0.3rem;
+    font-size: 0.65rem;
     background-color: var(--secondary);
     color: var(--secondary-text);
 }

@@ -17,7 +17,7 @@
 }
 
 .location {
-    color:  var(--footer-text);
+    color:  var(--muted-text);
 }
 
 .location span {
@@ -47,12 +47,12 @@
 .footer-span {
     padding: 1rem 1rem;
     text-align: center;
-    color:  var(--footer-text);
+    color:  var(--muted-text);
     font-size: 12px;
 }
 
 .footer-line {
-    border: 1px solid var(--footer-text);
+    border: 1px solid var(--muted-text);
     height: 0;
     width: 80%;
 }
