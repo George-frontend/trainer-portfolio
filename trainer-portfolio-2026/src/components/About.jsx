@@ -1,6 +1,7 @@
 import "../styles/about.css";
 import photo from "../assets/images/photo.jpg";
 import { CheckCircle, Minus  } from "lucide-react";
+import nsa from "../assets/icons/nsa.svg";
 
 const About = () => {
   return (
@@ -33,7 +34,7 @@ const About = () => {
 
         <div className="certificates">
           <span className="certificates-span"><CheckCircle /> Strong by Science</span>
-          <span className="certificates-span"><CheckCircle /> National Sports Academy Vasil Levski</span> 
+          <span className="certificates-span"><img src={nsa} alt="NSA" width={48} height={48} /> Sports Academy Vasil Levski</span> 
         </div>
       </div>
     </section>

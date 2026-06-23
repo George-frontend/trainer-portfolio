@@ -1,21 +1,9 @@
 import { useState } from "react";
 import { Minus, ChevronLeft, ChevronRight, Star  } from "lucide-react";
 import "../styles/feedback.css";
+import { testimonials } from "../data/testimonial.js";
 
 const Feedback = () => {
-
-  const testimonials = [
-    {
-      rating: 5,
-      description: `I have tried every program out there...`,
-      name: "George"
-    },
-    {
-      rating: 3,
-      description: `James completely changed how I think about training...`,
-      name: "Kevin"
-    }
-  ];
 
   const [ index, switchIndex ] = useState(0);
 
