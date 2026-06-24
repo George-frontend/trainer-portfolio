@@ -28,4 +28,10 @@ export const testimonials = [
       description: `Test 3`,
       name: "Sopcho"
     },
+
+    {
+      rating: 4,
+      description: `Test 4`,
+      name: "Kartofcho"
+    }
   ];

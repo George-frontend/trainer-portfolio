@@ -7,19 +7,39 @@ const Feedback = () => {
 
   const [ index, switchIndex ] = useState(0);
 
+  const [windowStart, setWindowStart] = useState(0);
+  const visibleCount = Math.min(5, testimonials.length);
+
   const nextTestimonial = () => {
-    switchIndex((index + 1) % testimonials.length);
-  }
+    const newIndex = (index + 1) % testimonials.length;
+    
+    if (newIndex === 0) {
+      setWindowStart(0);
+      
+    } else if (newIndex >= windowStart + visibleCount) {
+      setWindowStart(newIndex - visibleCount + 1);
+    }
+    
+    switchIndex(newIndex);
+  };
 
   const prevTestimonial = () => {
+    const newIndex = index === 0 ? testimonials.length - 1 : index - 1;
     
-    if (index === 0) {
-      switchIndex(testimonials.length - 1);
+    if (newIndex === testimonials.length - 1) {
+      setWindowStart(Math.max(testimonials.length - visibleCount, 0));
 
-    } else {
-      switchIndex(index - 1);
+    } else if (newIndex < windowStart) {
+      setWindowStart(newIndex);
     }
-  }
+    
+    switchIndex(newIndex);
+  };
+
+  const visibleIndices = Array.from(
+    { length: visibleCount }, 
+    (_, i) => windowStart + i
+  );
 
   return (
     <section id="feedback" className="feedback">
@@ -45,7 +65,7 @@ const Feedback = () => {
         <button className="prev" onClick={prevTestimonial}><ChevronLeft /></button>
 
         <div className="dots">
-          {testimonials.map((_, i) => (
+          {visibleIndices.map((i) => (
             <button 
               key={i} 
               onClick={() => switchIndex(i)}
