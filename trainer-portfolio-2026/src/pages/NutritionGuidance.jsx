@@ -113,7 +113,7 @@ const NutritionGuidance = () => {
 
           <div className="pricing-card">
 
-            <span className="price">€60 / mo</span>
+            <span className="price">€60</span>
 
             <span className="price-title">Monthly — Nutrition Tracking</span>
 
@@ -122,7 +122,7 @@ const NutritionGuidance = () => {
 
           <div className="pricing-card">
 
-            <span className="price">€215 / mo</span>
+            <span className="price">€215</span>
 
             <span className="price-title">Monthly — Nutrition + Individual Training</span>
 
@@ -133,7 +133,7 @@ const NutritionGuidance = () => {
 
             <span className="badge-popular">MOST POPULAR</span>
 
-            <span className="price">€115 / mo</span>
+            <span className="price">€115</span>
 
             <span className="price-title">Monthly — Nutrition + Parallel Training</span>
 
@@ -142,7 +142,7 @@ const NutritionGuidance = () => {
 
           <div className="pricing-card">
 
-            <span className="price">€80 / mo</span>
+            <span className="price">€80</span>
 
             <span className="price-title">Monthly — Nutrition + Online Training</span>
 
@@ -185,7 +185,7 @@ const NutritionGuidance = () => {
           </div>
         </div>
 
-        <Link to="/#contact" className="primary-btn">Book Now</Link>
+        <Link to="/#contact" className="primary-btn">Book Your Free Session</Link>
       </section>
     </>
   )

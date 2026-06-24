@@ -125,7 +125,7 @@ const OneOnOneCoaching = () => {
 
             <span className="badge-popular">MOST POPULAR</span>
 
-            <span className="price">€75 / mo</span>
+            <span className="price">€75</span>
 
             <span className="price-title">Monthly — Parallel Training</span>
 
@@ -134,7 +134,7 @@ const OneOnOneCoaching = () => {
 
           <div className="pricing-card">
 
-            <span className="price">€200 / mo</span>
+            <span className="price">€200</span>
 
             <span className="price-title">Monthly — Individual Training</span>
 
@@ -143,7 +143,7 @@ const OneOnOneCoaching = () => {
 
           <div className="pricing-card">
 
-            <span className="price">€215 / mo</span>
+            <span className="price">€215</span>
 
             <span className="price-title">Monthly — Nutrition + Individual Training</span>
 
@@ -152,7 +152,7 @@ const OneOnOneCoaching = () => {
 
           <div className="pricing-card">
 
-            <span className="price">€115 / mo</span>
+            <span className="price">€115</span>
 
             <span className="price-title">Monthly — Nutrition + Parallel Training</span>
 

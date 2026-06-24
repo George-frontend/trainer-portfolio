@@ -130,7 +130,7 @@ const RemoteCoaching = () => {
 
           <div className="pricing-card">
 
-            <span className="price">€50 / mo</span>
+            <span className="price">€50</span>
 
             <span className="price-title">Monthly — Online Training</span>
 
@@ -141,7 +141,7 @@ const RemoteCoaching = () => {
 
             <span className="badge-popular">MOST POPULAR</span>
 
-            <span className="price">€80 / mo</span>
+            <span className="price">€80</span>
 
             <span className="price-title">Monthly — Online + Nutrition</span>
 
@@ -184,7 +184,7 @@ const RemoteCoaching = () => {
           </div>
         </div>
 
-        <Link to="/#contact" className="primary-btn">Book Now</Link>
+        <Link to="/#contact" className="primary-btn">Book Your Free Session</Link>
       </section>
     </>
   )
