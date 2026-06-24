@@ -14,8 +14,8 @@ const Home = () => {
   useEffect(() => {
     
     if (location.state?.scrollTo) {
-    document.getElementById(location.state.scrollTo).scrollIntoView();
-  }
+      document.getElementById(location.state.scrollTo).scrollIntoView();
+    }
   }, [location]);
 
   return (
