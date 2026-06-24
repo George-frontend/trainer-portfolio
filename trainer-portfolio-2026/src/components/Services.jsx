@@ -25,11 +25,11 @@ const Services = () => {
 
             <span className="card-span">In-Person Training</span>
 
-            <h3 className="card-title">1-on-1 Coaching</h3>
+            <h3 className="card-title">Live Training</h3>
 
             <p className="card-p">
-              Fully personalized sessions built around your biomechanics and goals. Real-time feedback, 
-              progressive programming, and complete accountability.
+              Individual in-person training with flexible scheduling, unlimited sessions, 
+              and a custom program built specifically for your goals. Your first session is free.
             </p>
 
             <Link to="/programs/one-on-one-coaching" className="card-link">View More <ChevronRight size={14} /></Link>

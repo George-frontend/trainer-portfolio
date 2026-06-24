@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft, Monitor, Target, Users, BarChart2, Calendar, Award, CheckCircle } from "lucide-react";
-import "../styles/remote-coaching.css";
+import "../styles/program-pages.css";
 
 const RemoteCoaching = () => {
   return (
