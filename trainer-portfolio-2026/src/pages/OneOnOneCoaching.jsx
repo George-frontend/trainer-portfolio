@@ -1,6 +1,10 @@
+
 const OneOnOneCoaching = () => {
+
   return (
-    <div>OneOnOneCoaching</div>
+    <section className="live-coaching">
+
+    </section>
   )
 }
 
