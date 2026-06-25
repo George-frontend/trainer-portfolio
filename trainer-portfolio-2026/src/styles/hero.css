@@ -127,6 +127,7 @@
 
   .primary-btn,
   .secondary-btn {
+    min-width: 0;
     flex: 1;
     max-width: 220px;
     padding: 0.9rem 2rem;
@@ -144,5 +145,40 @@
 
   .children-elements p {
     font-size: 1rem;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .hero {
+    padding: 4rem 5rem;
+  }
+
+  .primary-p {
+    max-width: 35%;
+  }
+
+  .hero-h1 {
+    font-size: 3.25rem;
+    max-width: 65%;
+  }
+
+  .secondary-p {
+    max-width: 55%;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    min-width: 0;
+    max-width: 260px;
+    padding: 0.85rem 1.5rem;
+  }
+
+  .elements {
+    max-width: 55%;
+  }
+
+  .children-elements span {
+    font-size: 2.25rem;
   }
 }

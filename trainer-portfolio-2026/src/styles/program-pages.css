@@ -411,3 +411,63 @@
     font-size: 1rem;
   }
 }
+
+@media (min-width: 1024px) {
+  .program-hero {
+    padding: 5rem 6rem;
+  }
+
+  .program-h1 {
+    font-size: 4rem;
+  }
+
+  .program-description {
+    font-size: 1.3rem;
+    max-width: 750px;
+  }
+
+  .program-features,
+  .program-pricing {
+    padding: 5rem 6rem;
+  }
+
+  .features-h2,
+  .pricing-h2 {
+    font-size: 2.75rem;
+  }
+
+  .features-grid {
+    gap: 2rem;
+  }
+
+  .feature-card {
+    flex: 1 1 calc(33.333% - 1.5rem);
+    padding: 2rem 2rem;
+  }
+
+  .pricing-cards {
+    gap: 2rem;
+  }
+
+  .pricing-card {
+    flex: 1 1 calc(33.333% - 1.5rem);
+    padding: 2.5rem 2.5rem;
+  }
+
+  .price {
+    font-size: 2.5rem;
+  }
+
+  .offers-grid {
+    gap: 2rem;
+  }
+
+  .offer-card {
+    flex: 1 1 calc(33.333% - 1.5rem);
+    padding: 1.5rem 1.5rem;
+  }
+
+  .requirements-card {
+    padding: 2rem 2rem;
+  }
+}

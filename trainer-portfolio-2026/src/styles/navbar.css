@@ -71,3 +71,22 @@
     pointer-events: auto;
   }
 }
+
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 1.25rem 3rem;
+  }
+
+  .name {
+    font-size: 1.1rem;
+  }
+
+  .links {
+    gap: 2.5rem;
+  }
+
+  .li-element {
+    font-size: 1rem;
+    cursor: pointer;
+  }
+}
