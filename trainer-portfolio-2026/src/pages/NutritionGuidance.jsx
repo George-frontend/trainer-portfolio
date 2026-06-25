@@ -182,6 +182,15 @@ const NutritionGuidance = () => {
 
               <p className="offer-description">Your very first live training session is completely free — no commitment required.</p>
             </div>
+
+            <div className="offer-card">
+
+              <span className="offer-badge free">Hot offer</span>
+
+              <span className="offer-name">Recommend me</span>
+
+              <p className="offer-description">You get a free month for every new client you refer.</p>
+            </div>
           </div>
         </div>
 

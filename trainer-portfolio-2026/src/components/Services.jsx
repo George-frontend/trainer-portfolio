@@ -41,10 +41,10 @@ const Services = () => {
 
             <span className="card-span">Train Anywhere</span>
 
-            <h3 className="card-title">Remote Coaching</h3>
+            <h3 className="card-title">Online Coaching</h3>
 
             <p className="card-p">
-              A complete remote training experience — custom weekly programs, 
+              A complete online training experience — custom weekly programs, 
               video form reviews, and direct support wherever you are in the world.
             </p>
 

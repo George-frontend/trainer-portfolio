@@ -121,9 +121,7 @@ const OneOnOneCoaching = () => {
             <p className="price-description">Train alongside another client</p>
           </div>
 
-          <div className="pricing-card popular">
-
-            <span className="badge-popular">MOST POPULAR</span>
+          <div className="pricing-card">
 
             <span className="price">€75</span>
 
@@ -150,7 +148,9 @@ const OneOnOneCoaching = () => {
             <p className="price-description">Best value full package</p>
           </div>
 
-          <div className="pricing-card">
+          <div className="pricing-card popular">
+
+            <span className="badge-popular">MOST POPULAR</span>
 
             <span className="price">€115</span>
 
@@ -191,6 +191,15 @@ const OneOnOneCoaching = () => {
               <span className="offer-name">First Session Free</span>
 
               <p className="offer-description">Your very first live training session is completely free — no commitment required.</p>
+            </div>
+
+            <div className="offer-card">
+
+              <span className="offer-badge free">Hot offer</span>
+
+              <span className="offer-name">Recommend me</span>
+
+              <p className="offer-description">You get a free month for every new client you refer.</p>
             </div>
           </div>
         </div>
