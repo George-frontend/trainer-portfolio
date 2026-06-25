@@ -96,3 +96,53 @@
     color: var(--secondary-text);
     font-size: 0.75rem;
 }
+
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 4rem 4rem;
+    gap: 1.5rem;
+  }
+
+  .primary-p {
+    max-width: 40%;
+    font-size: 14px;
+  }
+
+  .hero-h1 {
+    font-size: 3rem;
+    max-width: 70%;
+    align-self: center;
+  }
+
+  .secondary-p {
+    max-width: 60%;
+    align-self: center;
+    font-size: 1.1rem;
+  }
+
+  .actions {
+    gap: 1rem;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    flex: 1;
+    max-width: 220px;
+    padding: 0.9rem 2rem;
+  }
+
+  .elements {
+    max-width: 60%;
+    align-self: center;
+    gap: 2rem;
+  }
+
+  .children-elements span {
+    font-size: 2rem;
+  }
+
+  .children-elements p {
+    font-size: 1rem;
+  }
+}
