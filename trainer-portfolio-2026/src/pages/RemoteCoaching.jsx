@@ -37,7 +37,7 @@ const RemoteCoaching = () => {
 
             <p className="feature-p">
               Every program is built from scratch around your goals, fitness 
-              level, equipment, and schedule. No templates — just what works for you.
+              level, equipment, and schedule.
             </p>
           </article>
 
@@ -73,19 +73,7 @@ const RemoteCoaching = () => {
             
             <p className="feature-p">
               Every session is logged and tracked so your progress is always 
-              visible — to you and to your coach.
-            </p>
-          </article>
-
-          <article className="feature-card">
-
-            <span className="feature-icon"><Calendar /></span>
-
-            <h3 className="feature-title">Progress Tracking</h3>
-
-            <p className="feature-p">
-              Data-driven reviews that go beyond the scale. Strength, 
-              endurance, body composition — all measured and evaluated regularly.
+              visible.
             </p>
           </article>
 
@@ -188,7 +176,7 @@ const RemoteCoaching = () => {
 
               <span className="offer-name">Recommend me</span>
 
-              <p className="offer-description">You get a free month for every new client you refer.</p>
+              <p className="offer-description">Get a free month for every new client who joins through your recommendation.</p>
             </div>
           </div>
         </div>

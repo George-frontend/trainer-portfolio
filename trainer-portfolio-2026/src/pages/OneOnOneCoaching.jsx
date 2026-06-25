@@ -40,8 +40,7 @@ const OneOnOneCoaching = () => {
             <h3 className="feature-title">First Session Is Free</h3>
 
             <p className="feature-p">
-              Get started with zero risk. Your first training session is on the 
-              house — come in, see how it works, and decide from there.
+              Get started with zero risk. See how it works, and decide from there.
             </p>
           </article>
 
@@ -52,8 +51,7 @@ const OneOnOneCoaching = () => {
             <h3 className="feature-title">Flexible Scheduling</h3>
 
             <p className="feature-p">
-              You pick the time that fits your life. Morning, evening, or 
-              weekend — sessions are booked around your schedule, not the other way around.
+              You pick the time that fits your life. Sessions are booked around your schedule, not the other way around.
             </p>
           </article>
 
@@ -64,8 +62,7 @@ const OneOnOneCoaching = () => {
             <h3 className="feature-title">Unlimited Sessions</h3>
 
             <p className="feature-p">
-              No session caps or limits. Train as frequently as your program 
-              calls for — the focus is your progress, not a session count.
+              No session caps or limits. The focus is your progress, not a session count.
             </p>
           </article>
 
@@ -199,7 +196,7 @@ const OneOnOneCoaching = () => {
 
               <span className="offer-name">Recommend me</span>
 
-              <p className="offer-description">You get a free month for every new client you refer.</p>
+              <p className="offer-description">Get a free month for every new client who joins through your recommendation.</p>
             </div>
           </div>
         </div>

@@ -189,7 +189,7 @@ const NutritionGuidance = () => {
 
               <span className="offer-name">Recommend me</span>
 
-              <p className="offer-description">You get a free month for every new client you refer.</p>
+              <p className="offer-description">Get a free month for every new client who joins through your recommendation.</p>
             </div>
           </div>
         </div>
