@@ -31,7 +31,7 @@ const Hero = () => {
 
         <div className="children-elements">
           <span>83%</span>
-          <p>Goal Achievement</p>
+          <p>Success Rate</p>
         </div>
 
         <div className="children-elements">
