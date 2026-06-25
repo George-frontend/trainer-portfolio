@@ -54,3 +54,45 @@
     color: var(--primary);
     font-weight: var(--font-weight-bold);
 }
+
+@media (min-width: 768px) {
+  .about {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem 3rem;
+  }
+
+  .photo img {
+    width: 300px;
+    height: 600px;
+  }
+
+  .desktop-about {
+    flex: 1;
+  }
+
+  .mobile-about {
+    align-items: flex-start;
+    text-align: left;
+    padding: 0;
+  }
+
+  .primary-span {
+    justify-content: flex-start;
+  }
+
+  .about-h2 {
+    font-size: 1.5rem;
+  }
+
+  .certificates {
+    margin-top: 1rem;
+    align-items: flex-start;
+  }
+
+  .certificates-span {
+    justify-content: flex-start;
+  }
+}
