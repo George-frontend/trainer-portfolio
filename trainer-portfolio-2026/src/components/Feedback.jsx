@@ -50,15 +50,17 @@ const Feedback = () => {
 
       <div className="testimonial-card">
 
-        <span className="rating">
-          {Array.from({ length: 5 }).map((_, i) => (
-            <Star key={i} fill={i < testimonials[index].rating ? "currentColor" : "none"} />
-          ))}
-        </span>
+        <div className="testimonial-content" key={index}>
+          <span className="rating">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <Star key={i} fill={i < testimonials[index].rating ? "currentColor" : "none"} />
+            ))}
+          </span>
 
-        <p className="description">{testimonials[index].description}</p>
+          <p className="description">{testimonials[index].description}</p>
 
-        <strong className="full-name">{testimonials[index].name}</strong>
+          <strong className="full-name">{testimonials[index].name}</strong>
+        </div>
       </div>
 
       <div className="navigations">

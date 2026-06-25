@@ -470,4 +470,17 @@
   .requirements-card {
     padding: 2rem 2rem;
   }
+
+  .feature-card,
+  .pricing-card,
+  .offer-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .feature-card:hover,
+  .pricing-card:hover,
+  .offer-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
 }

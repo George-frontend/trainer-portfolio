@@ -115,13 +115,25 @@
     flex: 1 1 calc(33.333% - 1rem);
     max-width: calc(33.333% - 1rem);
     padding: 1.5rem 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
   .card-p {
     font-size: 1rem;
   }
 
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+
   .card-link {
     margin-top: auto;
+    transition: color 0.2s ease, gap 0.2s ease;
+  }
+
+  .card-link:hover {
+    color: var(--primary);
+    gap: 0.75rem;
   }
 }

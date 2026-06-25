@@ -6,6 +6,8 @@ import OneOnOneCoaching from "./pages/OneOnOneCoaching.jsx";
 import RemoteCoaching from "./pages/RemoteCoaching.jsx";
 import NutritionGuidance from "./pages/NutritionGuidance.jsx";
 
+import "./styles/button-hovers.css";
+
 const App = () => {
 
   return (

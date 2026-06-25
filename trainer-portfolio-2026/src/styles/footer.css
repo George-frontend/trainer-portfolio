@@ -84,4 +84,17 @@
   .footer-line {
     max-width: 900px;
   }
+
+  .follow-icons {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+
+  .follow-icons:hover {
+    transform: translateY(-3px);
+    background-color: var(--primary);
+  }
+
+  .follow-icons:hover img {
+    filter: brightness(0) invert(1);
+  }
 }

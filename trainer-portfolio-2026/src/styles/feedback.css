@@ -1,66 +1,89 @@
 .feedback {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem 1rem;
-    gap: 1rem;
-    background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem;
+  gap: 1rem;
+  background-color: var(--secondary);
 }
 
 .feedback-span {
-    display: flex;
-    flex-direction: row;
-    color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  color: var(--primary);
 }
 
 .testimonial-card {
-    display: flex;
-    flex-direction: column;
-    border-radius: 12px;
-    border: 1px solid var(--background);
-    padding: 1rem 1rem;
-    gap: 1rem;
-    background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 1px solid var(--background);
+  padding: 1rem 1rem;
+  gap: 1rem;
+  background-color: var(--background);
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+  animation: testimonialFade 0.4s ease;
+}
+
+@keyframes testimonialFade {
+  from {
+    opacity: 0.9;
+    transform: translateX(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .rating {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
 }
 
 .description {
-    text-align: center;
+  text-align: center;
 }
 
 .full-name {
-    text-align: center;
-    font-weight: var(--font-weight-bold);
+  text-align: center;
+  font-weight: var(--font-weight-bold);
 }
 
 .navigations {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .prev {
-    border-radius: 12px;
-    border: 1px solid var(--secondary);
-    background-color: var(--background);
-    color: var(--primary);
+  border-radius: 12px;
+  border: 1px solid var(--secondary);
+  background-color: var(--background);
+  color: var(--primary);
 }
 
 .dots {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .dot {
@@ -75,10 +98,10 @@
 }
 
 .next {
-    border-radius: 12px;
-    border: 1px solid var(--secondary);
-    background-color: var(--background);
-    color: var(--primary);
+  border-radius: 12px;
+  border: 1px solid var(--secondary);
+  background-color: var(--background);
+  color: var(--primary);
 }
 
 @media (min-width: 768px) {
@@ -91,7 +114,6 @@
   }
 
   .testimonial-card {
-    max-width: 600px;
     padding: 2rem 2rem;
   }
 
