@@ -41,3 +41,33 @@
 .li-element {
     padding: 0.3rem;
 }
+
+
+@media (min-width: 768px) {
+  .navbar {
+    padding: 1rem 1rem;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .links {
+    position: static;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: auto;
+    min-height: auto;
+    opacity: 1;
+    pointer-events: auto;
+    background-color: transparent;
+    gap: 1.5rem;
+  }
+
+  .links.closed,
+  .links.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
