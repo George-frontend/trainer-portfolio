@@ -96,8 +96,6 @@ const OneOnOneCoaching = () => {
 
         <span className="primary-span">Pricing</span>
 
-        <h2 className="pricing-h2">Simple, Transparent Pricing</h2>
-
         <div className="pricing-cards">
 
           <div className="pricing-card">

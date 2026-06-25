@@ -37,7 +37,7 @@ const NutritionGuidance = () => {
 
             <p className="feature-p">
               A personalized nutrition plan tailored to your goals, lifestyle, 
-              food preferences, and daily schedule — not a generic protocol.
+              food preferences, and daily schedule.
             </p>
           </article>
 
@@ -49,7 +49,7 @@ const NutritionGuidance = () => {
 
             <p className="feature-p">
               Evidence-based strategies that produce real, lasting results — 
-              no fad diets, no extreme approaches, no short-term fixes.
+              no fad diets, no extreme approaches.
             </p>
           </article>
 
@@ -107,8 +107,6 @@ const NutritionGuidance = () => {
 
         <span className="primary-span">Pricing</span>
 
-        <h2 className="pricing-h2">Simple, Transparent Pricing</h2>
-
         <div className="pricing-cards">
 
           <div className="pricing-card">
@@ -126,7 +124,7 @@ const NutritionGuidance = () => {
 
             <span className="price-title">Monthly — Nutrition + Individual Training</span>
 
-            <p className="price-description">Best value full package</p>
+            <p className="price-description">Full package</p>
           </div>
 
           <div className="pricing-card popular">

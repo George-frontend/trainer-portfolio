@@ -45,7 +45,7 @@ const Services = () => {
 
             <p className="card-p">
               A complete online training experience — custom weekly programs, 
-              video form reviews, and direct support wherever you are in the world.
+              feedback to your videos, and direct support wherever you are in the world.
             </p>
 
             <Link to="/programs/remote-coaching" className="card-link">View More <ChevronRight size={14} /></Link>
@@ -60,8 +60,8 @@ const Services = () => {
             <h3 className="card-title">Nutrition Guidance</h3>
 
             <p className="card-p">
-              Precision nutrition coaching tailored to your training load, 
-              metabolic needs, and lifestyle. Sustainable protocols grounded in evidence.
+              Precision nutrition coaching tailored to your goals,
+              metabolic needs, and lifestyle. Science based methods.
             </p>
 
             <Link to="/programs/nutrition-guidance" className="card-link">View More <ChevronRight size={14}/></Link>
