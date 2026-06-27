@@ -33,9 +33,12 @@ export const testimonials = [
       name: "George Gulubov"
     },
 
-    // {
-    //   rating: 4,
-    //   description: `Test 3`,
-    //   name: "Sopcho"
-    // },
+    {
+      rating: 5,
+      description: `I am extremely pleased with our work together. I achieved results that I did not believe were possible. 
+                    I lost weight, my body became tighter and more toned, and I receive many compliments about the change. 
+                    The workouts are challenging and motivating. Every time I leave tired, 
+                    but satisfied and eager for the next workout. Thank you for your professionalism, support, and attitude!`,
+      name: "Gabriela Hristova"
+    },
   ];
