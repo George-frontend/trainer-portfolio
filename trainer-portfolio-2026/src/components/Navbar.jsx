@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <span className="name" onClick={() => navigation("hero")}>
-        Venelin Hristov
+        <img src="/logo.svg" alt="Venelin Hristov" width={32} height={32} />
       </span>
 
       <button className="nav-btn" aria-label="toogle-menu" onClick={toogle}>
