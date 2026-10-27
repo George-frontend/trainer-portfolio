@@ -1,75 +1,87 @@
 import "../styles/services.css";
 import { Link } from "react-router-dom";
-import { Minus, Dumbbell, Monitor, Utensils, ChevronRight  } from "lucide-react";
+import { Minus, Dumbbell, Monitor, Utensils, ChevronRight } from "lucide-react";
 
 const Services = () => {
-
   return (
     <section id="services" className="services">
       <div className="desktop-services">
-
         <div className="mobile-services">
-          <span className="primary-span"><Minus  /> Services <Minus  /></span>
+          <span className="primary-span">
+            <Minus /> Services <Minus />
+          </span>
 
           <h2 className="services-h2">Choose Your Path Forward</h2>
 
-          <p>Three distinct programs designed for different needs, schedules, and goals.</p>
-
+          <p>
+            Three distinct programs designed for different needs, schedules, and
+            goals.
+          </p>
         </div>
 
         <div className="cards-services">
-
           <article className="card">
-
-            <span className="icon"><Dumbbell size={16} /></span>
+            <span className="icon">
+              <Dumbbell size={16} />
+            </span>
 
             <span className="card-span">In-Person Training</span>
 
             <h3 className="card-title">Live Training</h3>
 
             <p className="card-p">
-              Individual in-person training with flexible scheduling, unlimited sessions, 
-              and a custom program built specifically for your goals. Your first session is free.
+              Individual in-person training with flexible scheduling, unlimited
+              sessions, and a custom program built specifically for your goals.
+              Your first session is free.
             </p>
 
-            <Link to="/programs/one-on-one-coaching" className="card-link">View More <ChevronRight size={14} /></Link>
+            <Link to="/programs/one-on-one-coaching" className="card-link">
+              View More <ChevronRight size={14} />
+            </Link>
           </article>
 
           <article className="card">
-
-            <span className="icon"><Monitor size={16} /></span>
+            <span className="icon">
+              <Monitor size={16} />
+            </span>
 
             <span className="card-span">Train Anywhere</span>
 
             <h3 className="card-title">Online Coaching</h3>
 
             <p className="card-p">
-              A complete online training experience — custom weekly programs, 
-              feedback to your videos, and direct support wherever you are in the world.
+              A complete online training experience — custom weekly programs,
+              feedback to your videos, and direct support wherever you are in
+              the world.
             </p>
 
-            <Link to="/programs/remote-coaching" className="card-link">View More <ChevronRight size={14} /></Link>
+            <Link to="/programs/remote-coaching" className="card-link">
+              View More <ChevronRight size={14} />
+            </Link>
           </article>
 
           <article className="card">
-
-            <span className="icon"><Utensils size={16} /></span>
+            <span className="icon">
+              <Utensils size={16} />
+            </span>
 
             <span className="card-span">Fuel Your Performance</span>
 
             <h3 className="card-title">Nutrition Guidance</h3>
 
             <p className="card-p">
-              Precision nutrition coaching tailored to your goals,
-              metabolic needs, and lifestyle. Science based methods.
+              Precision nutrition coaching tailored to your goals, metabolic
+              needs, and lifestyle. Science based methods.
             </p>
 
-            <Link to="/programs/nutrition-guidance" className="card-link">View More <ChevronRight size={14}/></Link>
+            <Link to="/programs/nutrition-guidance" className="card-link">
+              View More <ChevronRight size={14} />
+            </Link>
           </article>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

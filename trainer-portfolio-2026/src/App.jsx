@@ -5,24 +5,30 @@ import Footer from "./components/Footer.jsx";
 import OneOnOneCoaching from "./pages/OneOnOneCoaching.jsx";
 import RemoteCoaching from "./pages/RemoteCoaching.jsx";
 import NutritionGuidance from "./pages/NutritionGuidance.jsx";
-
+import ScrollToTop from "./components/ScrollToTop.jsx";
 import "./styles/button-hovers.css";
 
 const App = () => {
-
   return (
     <>
+      <ScrollToTop />
       <Navbar />
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/programs/one-on-one-coaching" element={<OneOnOneCoaching />} />
+        <Route
+          path="/programs/one-on-one-coaching"
+          element={<OneOnOneCoaching />}
+        />
         <Route path="/programs/remote-coaching" element={<RemoteCoaching />} />
-        <Route path="/programs/nutrition-guidance" element={<NutritionGuidance />} />
+        <Route
+          path="/programs/nutrition-guidance"
+          element={<NutritionGuidance />}
+        />
       </Routes>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

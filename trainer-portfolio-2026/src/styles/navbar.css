@@ -62,7 +62,7 @@
     opacity: 1;
     pointer-events: auto;
     background-color: transparent;
-    gap: 1.5rem;
+    gap: 1rem;
   }
 
   .links.closed,
@@ -83,7 +83,7 @@
   }
 
   .links {
-    gap: 2.5rem;
+    gap: 1rem;
   }
 
   .li-element {
