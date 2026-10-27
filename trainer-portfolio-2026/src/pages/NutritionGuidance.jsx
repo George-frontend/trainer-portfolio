@@ -15,7 +15,7 @@ const NutritionGuidance = () => {
         <h1 className="program-h1">A Strategy Built Around Your Life.</h1>
 
         <p className="program-description">
-          An individual nutrition plan built on proven, sustainable methods — 
+          An individual nutrition plan built on proven, sustainable methods
           designed to help you reach your goals without deprivation, without 
           stress, and without sacrificing the things you enjoy.
         </p>
@@ -48,7 +48,7 @@ const NutritionGuidance = () => {
             <h3 className="feature-title">Proven & Sustainable Methods</h3>
 
             <p className="feature-p">
-              Evidence-based strategies that produce real, lasting results — 
+              Evidence-based strategies that produce real, lasting results
               no fad diets, no extreme approaches.
             </p>
           </article>
@@ -72,7 +72,7 @@ const NutritionGuidance = () => {
             <h3 className="feature-title">No Stress</h3>
 
             <p className="feature-p">
-              Simple, clear guidelines that integrate into your real life — 
+              Simple, clear guidelines that integrate into your real life
               without obsessing over every meal or feeling anxious about food.
             </p>
           </article>
@@ -103,50 +103,7 @@ const NutritionGuidance = () => {
         </div>
       </section>
 
-      <section className="program-pricing">
-
-        <span className="primary-span">Pricing</span>
-
-        <div className="pricing-cards">
-
-          <div className="pricing-card">
-
-            <span className="price">€60</span>
-
-            <span className="price-title">Monthly — Nutrition Tracking</span>
-
-            <p className="price-description">Standalone nutrition coaching</p>
-          </div>
-
-          <div className="pricing-card">
-
-            <span className="price">€215</span>
-
-            <span className="price-title">Monthly — Nutrition + Individual Training</span>
-
-            <p className="price-description">Full package</p>
-          </div>
-
-          <div className="pricing-card popular">
-
-            <span className="badge-popular">MOST POPULAR</span>
-
-            <span className="price">€115</span>
-
-            <span className="price-title">Monthly — Nutrition + Parallel Training</span>
-
-            <p className="price-description">Group training with nutrition</p>
-          </div>
-
-          <div className="pricing-card">
-
-            <span className="price">€80</span>
-
-            <span className="price-title">Monthly — Nutrition + Online Training</span>
-
-            <p className="price-description">Remote training & nutrition</p>
-          </div>
-        </div>
+      <section className="program-offers">
 
         <div className="special-offers">
 
@@ -178,16 +135,7 @@ const NutritionGuidance = () => {
 
               <span className="offer-name">First Session Free</span>
 
-              <p className="offer-description">Your very first live training session is completely free — no commitment required.</p>
-            </div>
-
-            <div className="offer-card">
-
-              <span className="offer-badge free">Hot offer</span>
-
-              <span className="offer-name">Recommend me</span>
-
-              <p className="offer-description">Get a free month for every new client who joins through your recommendation.</p>
+              <p className="offer-description">Your very first live training session is completely free no commitment required.</p>
             </div>
           </div>
         </div>

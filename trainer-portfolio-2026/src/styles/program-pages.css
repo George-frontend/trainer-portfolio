@@ -160,72 +160,12 @@
   width: 100%;
 }
 
-.program-pricing {
+.program-offers {
   display: flex;
   flex-direction: column;
   padding: 1rem 1rem;
   gap: 1rem;
   background-color: var(--background);
-}
-
-.pricing-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.pricing-card {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  padding: 1.5rem 1.5rem;
-  border-radius: 12px;
-  border: 1px solid var(--secondary);
-  background-color: var(--background);
-}
-
-.pricing-card.popular {
-  border: none;
-  background-color: var(--primary);
-}
-
-.badge-popular {
-  align-self: flex-start;
-  padding: 0.25rem 0.75rem;
-  border-radius: 12px;
-  font-size: 0.7rem;
-  font-weight: var(--font-weight-bold);
-  background-color: var(--background);
-  color: var(--primary);
-}
-
-.price {
-  font-size: 1.75rem;
-  font-weight: var(--font-weight-bold);
-  color: var(--primary);
-}
-
-.pricing-card.popular .price {
-  color: var(--primary-foreground);
-}
-
-.price-title {
-  font-weight: var(--font-weight-bold);
-  color: var(--primary-text);
-}
-
-.pricing-card.popular .price-title {
-  color: var(--primary-foreground);
-}
-
-.price-description {
-  font-size: 0.875rem;
-  color: var(--secondary-text);
-}
-
-.pricing-card.popular .price-description {
-  color: var(--background);
 }
 
 .special-offers {
@@ -285,7 +225,7 @@
   color: var(--secondary-text);
 }
 
-.program-pricing .primary-btn {
+.program-offers .primary-btn {
   align-self: center;
   margin-top: 1rem;
   padding: 0.75rem 2rem;
@@ -321,7 +261,7 @@
   }
 
   .program-features,
-  .program-pricing {
+  .program-offers {
     padding: 3rem 3rem;
   }
 
@@ -351,30 +291,6 @@
   }
 
   .feature-p {
-    font-size: 1rem;
-  }
-
-  .pricing-cards {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    gap: 1.5rem;
-  }
-
-  .pricing-card {
-    flex: 1 1 calc(50% - 0.75rem);
-    padding: 2rem 2rem;
-  }
-
-  .price {
-    font-size: 2.25rem;
-  }
-
-  .price-title {
-    font-size: 1.05rem;
-  }
-
-  .price-description {
     font-size: 1rem;
   }
 
@@ -422,7 +338,7 @@
   }
 
   .program-features,
-  .program-pricing {
+  .program-offers {
     padding: 5rem 6rem;
   }
 
@@ -439,19 +355,6 @@
     padding: 2rem 2rem;
   }
 
-  .pricing-cards {
-    gap: 2rem;
-  }
-
-  .pricing-card {
-    flex: 1 1 calc(33.333% - 1.5rem);
-    padding: 2.5rem 2.5rem;
-  }
-
-  .price {
-    font-size: 2.5rem;
-  }
-
   .offers-grid {
     gap: 2rem;
   }
@@ -466,13 +369,11 @@
   }
 
   .feature-card,
-  .pricing-card,
   .offer-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
   .feature-card:hover,
-  .pricing-card:hover,
   .offer-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);

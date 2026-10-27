@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowLeft, Monitor, Target, Users, BarChart2, Calendar, Award, CheckCircle } from "lucide-react";
+import { ArrowLeft, Monitor, Target, Users, BarChart2, Calendar, Award, } from "lucide-react";
 import "../styles/program-pages.css";
 
 const RemoteCoaching = () => {
@@ -85,7 +85,7 @@ const RemoteCoaching = () => {
 
             <p className="feature-p">
               Submit exercise videos and receive detailed, specific feedback 
-              on your form and execution — the same quality of coaching you get in person.
+              on your form and execution the same quality of coaching you get in person.
             </p>
           </article>
         </div>
@@ -107,32 +107,7 @@ const RemoteCoaching = () => {
 
       <hr className="program-line" />
 
-      <section className="program-pricing">
-
-        <span className="primary-span">Pricing</span>
-
-        <div className="pricing-cards">
-
-          <div className="pricing-card">
-
-            <span className="price">€50</span>
-
-            <span className="price-title">Monthly — Online Training</span>
-
-            <p className="price-description">Full remote coaching program</p>
-          </div>
-
-          <div className="pricing-card popular">
-
-            <span className="badge-popular">MOST POPULAR</span>
-
-            <span className="price">€80</span>
-
-            <span className="price-title">Monthly — Online + Nutrition</span>
-
-            <p className="price-description">Training & nutrition combined</p>
-          </div>
-        </div>
+      <section className="program-offers">
 
         <div className="special-offers">
 
@@ -164,16 +139,7 @@ const RemoteCoaching = () => {
 
               <span className="offer-name">First Session Free</span>
 
-              <p className="offer-description">Your very first live training session is completely free — no commitment required.</p>
-            </div>
-
-            <div className="offer-card">
-
-              <span className="offer-badge free">Hot offer</span>
-
-              <span className="offer-name">Recommend me</span>
-
-              <p className="offer-description">Get a free month for every new client who joins through your recommendation.</p>
+              <p className="offer-description">Your very first live training session is completely free no commitment required.</p>
             </div>
           </div>
         </div>

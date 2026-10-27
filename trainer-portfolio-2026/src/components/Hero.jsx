@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="elements">
 
         <div className="children-elements">
-          <span>12+</span>
+          <span>30+</span>
           <p>Clients Coached</p>
         </div>
 
@@ -35,7 +35,7 @@ const Hero = () => {
         </div>
 
         <div className="children-elements">
-          <span>6+</span>
+          <span>12+</span>
           <p>Months Experience</p>
         </div>
       </div>

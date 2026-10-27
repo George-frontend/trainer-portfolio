@@ -21,7 +21,7 @@ const OneOnOneCoaching = () => {
         <p className="program-description">
           Personalized in-person sessions with a structured training program, 
           flexible scheduling, and full progress tracking. Your first session 
-          is completely free — no commitment needed.
+          is completely free no commitment needed.
         </p>
       </section>
 
@@ -57,17 +57,6 @@ const OneOnOneCoaching = () => {
 
           <article className="feature-card">
 
-            <span className="feature-icon"><Dumbbell /></span>
-
-            <h3 className="feature-title">Unlimited Sessions</h3>
-
-            <p className="feature-p">
-              No session caps or limits. The focus is your progress, not a session count.
-            </p>
-          </article>
-
-          <article className="feature-card">
-
             <span className="feature-icon"><Target /></span>
 
             <h3 className="feature-title">Individual Training Program</h3>
@@ -92,68 +81,7 @@ const OneOnOneCoaching = () => {
         </div>
       </section>
 
-      <section className="program-pricing">
-
-        <span className="primary-span">Pricing</span>
-
-        <div className="pricing-cards">
-
-          <div className="pricing-card">
-
-            <span className="price">€25</span>
-
-            <span className="price-title">Single Individual Session</span>
-
-            <p className="price-description">One-off, no subscription</p>
-          </div>
-
-          <div className="pricing-card">
-
-            <span className="price">€10</span>
-
-            <span className="price-title">Single Parallel Session</span>
-
-            <p className="price-description">Train alongside another client</p>
-          </div>
-
-          <div className="pricing-card">
-
-            <span className="price">€75</span>
-
-            <span className="price-title">Monthly — Parallel Training</span>
-
-            <p className="price-description">Unlimited parallel sessions</p>
-          </div>
-
-          <div className="pricing-card">
-
-            <span className="price">€200</span>
-
-            <span className="price-title">Monthly — Individual Training</span>
-
-            <p className="price-description">Up to 2 people</p>
-          </div>
-
-          <div className="pricing-card">
-
-            <span className="price">€215</span>
-
-            <span className="price-title">Monthly — Nutrition + Individual Training</span>
-
-            <p className="price-description">Best value full package</p>
-          </div>
-
-          <div className="pricing-card popular">
-
-            <span className="badge-popular">MOST POPULAR</span>
-
-            <span className="price">€115</span>
-
-            <span className="price-title">Monthly — Nutrition + Parallel Training</span>
-
-            <p className="price-description">Group training with nutrition</p>
-          </div>
-        </div>
+      <section className="program-offers">
 
         <div className="special-offers">
 
@@ -185,16 +113,7 @@ const OneOnOneCoaching = () => {
 
               <span className="offer-name">First Session Free</span>
 
-              <p className="offer-description">Your very first live training session is completely free — no commitment required.</p>
-            </div>
-
-            <div className="offer-card">
-
-              <span className="offer-badge free">Hot offer</span>
-
-              <span className="offer-name">Recommend me</span>
-
-              <p className="offer-description">Get a free month for every new client who joins through your recommendation.</p>
+              <p className="offer-description">Your very first live training session is completely free no commitment required.</p>
             </div>
           </div>
         </div>

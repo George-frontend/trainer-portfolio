@@ -8,15 +8,6 @@
     background-color: var(--primary);
 }
 
-.contact-span {
-    border-radius: 12px;
-    border: 1px solid var(--secondary);
-    padding: 0.3rem 0.3rem;
-    font-size: 0.65rem;
-    background-color: var(--secondary);
-    color: var(--secondary-text);
-}
-
 .contact-h2 {
     text-align: center;
     color: var(--primary-foreground);
@@ -65,11 +56,6 @@
 @media (min-width: 1024px) {
   .contact {
     padding: 5rem 5rem;
-  }
-
-  .contact-span {
-    font-size: 0.75rem;
-    padding: 0.4rem 0.8rem;
   }
 
   .contact-h2 {

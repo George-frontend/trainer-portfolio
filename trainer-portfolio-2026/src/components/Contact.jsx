@@ -4,8 +4,6 @@ import "../styles/contact.css";
 const Contact = () => {
   return (
     <section id="contact" className="contact">
-      
-      <span className="contact-span">FREE CONSULTATION</span>
 
       <h2 className="contact-h2">Ready to Start Your Transformation?</h2>
 

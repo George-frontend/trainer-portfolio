@@ -1,7 +1,6 @@
 import { MapPin } from "lucide-react";
 import instagram from "../assets/icons/instagram.svg";
 import facebook from "../assets/icons/facebook.svg";
-import tiktok from "../assets/icons/tiktok.svg";
 import "../styles/footer.css";
 
 const Footer = () => {
@@ -19,14 +18,11 @@ const Footer = () => {
             <img src={instagram} alt="Instagram" width={16} height={16} />
           </a>
 
-          <a href="https://www.tiktok.com/@restless.venko?_r=1&_t=ZN-97Ocz2Alisg" target="_blank" rel="noopener noreferrer" className="follow-icons">
-            <img src={tiktok} alt="TikTok" width={16} height={16} />
+          <a href="https://maps.app.goo.gl/wPtTZtJRRYtyScwB6" target="_blank" rel="noopener noreferrer" className="follow-icons" aria-label="Location on Google Maps">
+            <MapPin size={16} />
           </a>
         </div>
 
-        <div className="location">
-          <span><MapPin size={14} /> kv. Slatina, ul. "Daskal Nikita" 2, 1574 Sofia, Bulgaria</span>
-        </div>
       </div>
 
       <hr className="footer-line" />
